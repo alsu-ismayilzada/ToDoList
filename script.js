@@ -43,7 +43,7 @@ sort.addEventListener('mouseleave', () => {
   });
 
 
-let btnAdd = document.querySelector(".btn_add");
+let btnAdd = document.querySelector(".btn-add");
 let countClick=0;
 let divInpt = document.querySelector(".input");
 let inpt = document.querySelector("input");
@@ -52,7 +52,7 @@ btnAdd.addEventListener("click",() =>{
     let li = document.createElement("li");
     let btn = document.createElement("button");
     let div = document.createElement("div");
-    div.classList.add("li_container");
+    div.classList.add("li-container");
     btn.classList.add("remove-li");
     let ul = document.querySelector("ul");
     ul.append(li);
@@ -83,7 +83,7 @@ btnRemove.addEventListener("click",()=>{
     inpt.value="";
 })
 
-let btnPlus = document.querySelector(".btn_plus");
+let btnPlus = document.querySelector(".btn-plus");
 btnPlus.addEventListener("click",()=>{
     countClick=0;
     divInpt.style.display="flex";

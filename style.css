@@ -29,7 +29,7 @@ h3{
     font-size: 26px;
     font-family: "Roboto", sans-serif;
 }
-.logo_container{
+.logo-container{
     display: flex;
     justify-content: right;
     margin-bottom: 10px;
@@ -63,6 +63,10 @@ input{
     padding: 3px;
     box-sizing: border-box;
     border: none;
+    outline: none;
+}
+input:focus{
+    border: none;
 }
 .remove{
     width: 20px;
@@ -90,7 +94,7 @@ input{
 .remove-li:hover{
     background-color: #833AE0;
 }
-.li_container{
+.li-container{
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -109,7 +113,7 @@ li{
     height: 42px;
     background-color: #833AE0;
 }
-.btn_plus{
+.btn-plus{
     width: 42px;
     height: 42px;
     border-radius: 50%;
@@ -117,7 +121,7 @@ li{
     background-color: #9953F1;
     color: white;
 }
-.btn_add{
+.btn-add{
     height: 42px;
     width: 108px;
     border-radius: 21px;
