@@ -5,7 +5,7 @@ sort.addEventListener('mouseover', () => {
     console.log(logo.src);
     if(logo.src.includes("icon_gray_decrease.svg")){
    logo.src="./image/icon_black_decrease.svg"
-  }else if(logo.src =="http://127.0.0.1:5500/image/icon_gray_increase.svg"){
+  }else if(logo.src.includes("icon_gray_increase.svg")){
     logo.src="./image/icon_black_increase.svg"
 }
   });
