@@ -103,7 +103,12 @@ input:focus{
 }
 li{
     list-style: none;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 200px;
+    overflow-x: auto;
+    scrollbar-width: thin;
     
 }
 .btn{
