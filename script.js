@@ -3,16 +3,16 @@ let sort = document.querySelector(".sort");
 
 sort.addEventListener('mouseover', () => {
     console.log(logo.src);
-    if(logo.src =="http://127.0.0.1:5500/image/icon_gray_decrease.svg"){
+    if(logo.src.includes("icon_gray_decrease.svg")){
    logo.src="./image/icon_black_decrease.svg"
   }else if(logo.src =="http://127.0.0.1:5500/image/icon_gray_increase.svg"){
     logo.src="./image/icon_black_increase.svg"
 }
   });
 sort.addEventListener('mouseleave', () => {
-    if(logo.src =="http://127.0.0.1:5500/image/icon_black_decrease.svg"){
+    if(logo.src.includes("icon_black_decrease.svg")){
     logo.src="./image/icon_gray_decrease.svg"
-}else{
+}else if(logo.src.includes("icon_black_increase.svg")){
     logo.src="./image/icon_gray_increase.svg"
 }
    });
