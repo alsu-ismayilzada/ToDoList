@@ -25,7 +25,7 @@ sort.addEventListener('mouseleave', () => {
         arr.sort();
       })
       console.log(logo.src);
-  if(logo.src =="http://127.0.0.1:5500/image/icon_black_decrease.svg"){
+  if(logo.src.includes("icon_black_decrease.svg")){
     logo.src="./image/icon_black_increase.svg";
       let i = 0;
       li.forEach((item)=>{
