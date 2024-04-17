@@ -48,7 +48,7 @@ let countClick=0;
 let divInpt = document.querySelector(".input");
 let inpt = document.querySelector("input");
 btnAdd.addEventListener("click",() =>{
-  if(inpt.value != "" && countClick==0){
+  if(inpt.value.trim() != "" && countClick==0){
     let li = document.createElement("li");
     let btn = document.createElement("button");
     let div = document.createElement("div");
