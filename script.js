@@ -25,15 +25,15 @@ sort.addEventListener('mouseleave', () => {
         arr.sort();
       })
       console.log(logo.src);
-  if(logo.src.includes("icon_black_decrease.svg")){
-    logo.src="./image/icon_black_increase.svg";
+  if(logo.src.includes("icon_black_increase.svg")){
+    logo.src="./image/icon_black_decrease.svg";
       let i = 0;
       li.forEach((item)=>{
           item.innerHTML = arr[i];
           i++;
         })
     }else{
-        logo.src="./image/icon_black_decrease.svg";
+        logo.src="./image/icon_black_increase.svg";
         let i = arr.length-1;
         li.forEach((item)=>{
           item.innerHTML = arr[i];
